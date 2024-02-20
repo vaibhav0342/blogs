@@ -61,6 +61,8 @@ In the realm of cloud computing, a Virtual Private Cloud (VPC) is a fundamental 
 * **Flexibility:** Customize network configurations to meet the specific requirements of your applications.
     
 
+### **Setting Up VPC with Public and Private Subnets**
+
 ### **Creating a VPC: Step-by-Step**
 
 🔹 **Create VPC**
@@ -103,7 +105,6 @@ In the realm of cloud computing, a Virtual Private Cloud (VPC) is a fundamental 
     
     🔹 **Create Internet Gateway**
     
-
 * **Name:** Choose `Internet-Gat`
     
 * **Attach to VPC:** MY\_VPC
@@ -121,7 +122,6 @@ In the realm of cloud computing, a Virtual Private Cloud (VPC) is a fundamental 
     
     * Add Public Subnets `{ public-1 , public-2 }`
         
-    
 
 🔹 **Create NAT Gateway**
 
