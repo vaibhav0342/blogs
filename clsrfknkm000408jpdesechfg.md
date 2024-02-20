@@ -6,7 +6,6 @@ datePublished: Sun Feb 18 2024 11:34:56 GMT+0000 (Coordinated Universal Time)
 cuid: clsrfknkm000408jpdesechfg
 slug: mastering-bash-essential-tips-and-tricks-for-shell-scripting-success
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708053954514/7ca9a5bf-5cdb-482c-ba87-f33454205279.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1708255635035/e8a4c728-457b-4d83-bea3-95acfe3f5d8d.png
 tags: linux, bash, automation, devops, script, shell-script
 
 ---
