@@ -822,7 +822,9 @@ done
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708254617120/4ce48006-1e41-4070-9f58-2c0001f64d37.png align="center")
 
-### \==========================================Infinite while loop
+\=============================================================
+
+### Infinite while loop
 
 ```plaintext
 #!/bin/bash
@@ -836,7 +838,9 @@ done
 # We can press Ctrl + C to exit the script
 ```
 
-### \==========================================select loop
+\=============================================================
+
+### select loop
 
 select loop in Bash is used to create simple text-based menus in scripts. It allows users to choose from a list of options presented to them.
 
