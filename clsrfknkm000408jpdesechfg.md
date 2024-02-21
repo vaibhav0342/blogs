@@ -5,7 +5,7 @@ seoDescription: ""Unlock the Power of Shell Scripting: Dive into the World of Au
 datePublished: Sun Feb 18 2024 11:34:56 GMT+0000 (Coordinated Universal Time)
 cuid: clsrfknkm000408jpdesechfg
 slug: mastering-bash-essential-tips-and-tricks-for-shell-scripting-success
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708498313597/89c589f2-85ab-41dc-825e-408d59256e0c.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708498363174/9d9c3dda-72e0-43a1-8321-2d693ec47c9b.avif
 tags: linux, bash, automation, devops, script, shell-script
 
 ---
