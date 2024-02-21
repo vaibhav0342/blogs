@@ -5,7 +5,7 @@ seoDescription: ""Unlock the Power of Shell Scripting: Dive into the World of Au
 datePublished: Sun Feb 18 2024 11:34:56 GMT+0000 (Coordinated Universal Time)
 cuid: clsrfknkm000408jpdesechfg
 slug: mastering-bash-essential-tips-and-tricks-for-shell-scripting-success
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708452808898/a8adbcd8-21e3-49a9-ae44-8c69e18f3162.webp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708497023575/da9355fd-ff86-4e63-afa9-dc065806dd1b.png
 tags: linux, bash, automation, devops, script, shell-script
 
 ---
@@ -533,10 +533,8 @@ read -p "enter your server name " web_sv
 var1=$(systemctl status $web_sv | awk 'NR==3 { print $2 }')
 
 # Print the status of the service with formatting
-echo -e "your apache2 $web_sv is :\e[31m$var1\e[0m "
+echo -e "your $web_sv is :\e[31m$var1\e[0m "
 ```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708253100478/51e7f6b0-b826-473b-97a5-6e3ccd5e65e9.png align="center")
 
 ***\============================================================***
 
