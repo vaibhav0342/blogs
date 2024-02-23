@@ -74,6 +74,8 @@ In the realm of cloud computing, a Virtual Private Cloud (VPC) is a fundamental 
 * Choose an appropriate CIDR block to define the range of IP addresses available for use within your VPC
     
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708670417279/b3999557-70a6-4242-a39a-8c769732f9dd.png align="center")
+
 🔹 **Create Subnets**
 
 * Create 4 subnets: { 2 Public , 2 Private }
@@ -96,19 +98,26 @@ In the realm of cloud computing, a Virtual Private Cloud (VPC) is a fundamental 
         
     * Private-2 Subnets CIDR block For example `10.0.4.0/16`
         
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708671622276/161f4e6b-de12-4e42-9430-0c511493805e.png align="center")
+
 * **Edit Subnet Settings:**
     
     * Enable Auto-assign IP
         
     * Only enable Public Subnets `{ public-1 , public-2 }`
         
-    
-    🔹 **Create Internet Gateway**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708670479086/76044482-1b49-4b40-bb03-931d2a9c231d.png align="center")
+
+* 🔹 **Create Internet Gateway**
     
 * **Name:** Choose `Internet-Gat`
     
 * **Attach to VPC:** MY\_VPC
     
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708670708686/fc59b13b-9739-4dbe-bc0e-ebd14aa4562d.png align="center")
 
 🔹 **Create Route Table (for Public Subnets)**
 
@@ -118,10 +127,15 @@ In the realm of cloud computing, a Virtual Private Cloud (VPC) is a fundamental 
     
     * Add Route: `0.0.0.0/0` (Internet Gat) - Target ( indicate all internet-bound traffic.)
         
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708671057419/90032259-0228-4417-8239-6ce370847046.png align="center")
+
 * **Edit Subnet Association:**
     
     * Add Public Subnets `{ public-1 , public-2 }`
         
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708671218867/cf993233-eeea-4420-a070-fb5749f53e01.png align="center")
 
 🔹 **Create NAT Gateway**
 
@@ -131,6 +145,8 @@ In the realm of cloud computing, a Virtual Private Cloud (VPC) is a fundamental 
     
 * **Allocation:** Elastic IP `public-1`
     
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708670872183/c2d433ef-c56a-471c-87db-92e25f58f5b9.png align="center")
 
 🔹 **Create Route Table (for Private Subnets)**
 
@@ -161,6 +177,8 @@ In the realm of cloud computing, a Virtual Private Cloud (VPC) is a fundamental 
         
     * Enable Public IP
         
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708671456563/8d48c683-3be6-43e1-afa5-675af3cf2d7f.png align="center")
 
 🔹 **Private Instance**
 
